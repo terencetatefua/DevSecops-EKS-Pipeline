@@ -19,5 +19,5 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
 
-      - name: NPM Install
+      - name: NPM Install dependency
         run: npm install # Add your specific npm install command
